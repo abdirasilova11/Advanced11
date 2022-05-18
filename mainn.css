@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 200vm;
+    height: 400vh;
+    background-color: #ea7ce4;
+    overflow: hidden;
+}
+.text{
+    text-transform: capitalize;
+    color: mediumvioletred;
+    font-family: 'Inconsolata', monospace;
+
+}
+label{
+    color: crimson;
+    text-transform: capitalize;
+    display: block;
+
+}
+form{
+    background-color: white;
+    width: 600px;
+    outline-width: thin;
+    outline-style: none;
+    border-radius: 25px;
+    columns: 600px;
+
+}
+.formContent{
+    width: 600px;
+
+    text-align: center;
+    border-radius: 100%;
+    margin: 400px 300px 200px 400px;
+    padding-top: 25px;
+
+
+}
+input{
+    display: block;
+    padding: 5px 10px;
+    font-family: Dubai;
+    outline: none;
+    width: 500px;
+    margin: 40px 40px 40px 40px;
+    border-radius: 150px;
+    border-color: darkred;
+
+}
+input:focus{
+    border: 1px solid blueviolet;
+}
+input:hover{
+    background-color: aquamarine;
+}
+#myButton{
+    padding-bottom: 10px;
+    padding-right: 130px;
+    padding-left: 100px;
+    padding-top: 10px;
+
+    background-color: palevioletred;
+    color: white;
+
+    text-align: center;
+
+    line-height: normal;
+    width: 10px;
+    margin-left: 170px;
+
+
+}
+.forgotPass{
+    color: violet;
+    padding-bottom: 50px;
+}
